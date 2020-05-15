@@ -15,9 +15,9 @@ def home():
 def page1():
     return render_template("classes.html")
 
-@app.route("/assignments")
+@app.route("/music")
 def page2():
-    return render_template("assignments.html")
+    return render_template("music.html")
 #start the server
 if __name__ == "__main__":
     app.run()
