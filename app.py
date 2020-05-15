@@ -1,5 +1,4 @@
 
-
 #import statements
 from flask import Flask, render_template
 
@@ -11,9 +10,9 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/classes")
+@app.route("/assignments")
 def page1():
-    return render_template("classes.html")
+    return render_template("assignments.html")
 
 @app.route("/music")
 def page2():
